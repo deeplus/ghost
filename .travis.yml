@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 'node'
+cache: npm
+script: npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN_GHOST
+  local_dir: docs/.vuepress/dist
+  keep_history: true
+  on:
+    branch: master
