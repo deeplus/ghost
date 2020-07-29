@@ -6,9 +6,10 @@ module.exports = [
     {
         title: '第一章：起步',
         path: '/flutter/chapter1/',
-        collapsable: false,
+        // collapsable: false,
         children: [
             'chapter1/flutter_intro',
+            'chapter1/flutter_tree',
             'chapter1/flutter_quickstart'
         ]
     },
@@ -16,17 +17,33 @@ module.exports = [
         title: '第二章：Scaffold脚手架',
         path: '/flutter/chapter2/',
         children: [
-            'chapter2/'
+            'chapter2/flutter_material_intro',
+            'chapter2/flutter_scaffold_intro'
         ]
     },
     {
-        title: '第三章：基础组件'
+        title: '第三章：基础组件',
+        path: '/flutter/chapter3/',
+        children: [
+            'chapter3/text',
+            'chapter3/icon',
+            'chapter3/image',
+            'chapter3/button'
+        ]
     },
     {
         title: '第四章：布局类组件'
     },
     {
-        title: '第五章：容器类组件'
+        title: '第五章：容器类组件',
+        path: '/flutter/chapter5/',
+        children: [
+            'chapter5/container',
+            'chapter5/dimensional_limit',
+            'chapter5/decoration',
+            'chapter5/padding',
+            'chapter5/transform'
+        ]
     },
     {
         title: '第六章：可滚动组件'
