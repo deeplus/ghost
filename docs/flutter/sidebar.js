@@ -32,7 +32,17 @@ module.exports = [
         ]
     },
     {
-        title: '第四章：布局类组件'
+        title: '第四章：布局类组件',
+        path: '/flutter/chapter4/',
+        children: [
+            'chapter4/intro',
+            'chapter4/linear',
+            'chapter4/flex',
+            'chapter4/stream',
+            'chapter4/stack',
+            'chapter4/align',
+            'chapter4/center',
+        ]
     },
     {
         title: '第五章：容器类组件',
