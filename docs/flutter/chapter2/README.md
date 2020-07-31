@@ -1,5 +1,5 @@
 ---
-title: 第二章：Scaffold脚手架
+title: 第二章：MaterialApp
 ---
 
 # 本章目录

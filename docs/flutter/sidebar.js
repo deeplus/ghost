@@ -14,12 +14,17 @@ module.exports = [
         ]
     },
     {
-        title: '第二章：Scaffold脚手架',
+        title: '第二章：MaterialApp',
         path: '/flutter/chapter2/',
         collapsable: false,
         children: [
-            'chapter2/flutter_material_intro',
-            'chapter2/flutter_scaffold_intro'
+            'chapter2/material_app',
+            'chapter2/themedata',
+            'chapter2/scaffold',
+            'chapter2/appbar',
+            'chapter2/tabbar',
+            'chapter2/drawer',
+            'chapter2/bottom_navigation_bar',
         ]
     },
     {
