@@ -74,7 +74,8 @@ module.exports = [
             'chapter6/listview',
             'chapter6/gridview',
             'chapter6/pageview',
-            'chapter6/sliver'
+            'chapter6/sliver',
+            'chapter6/custom_scrollview'
         ]
     },
     {
