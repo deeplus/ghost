@@ -48,15 +48,11 @@ Text(
 
 <br>
 
-*   1.   [IconData](https://api.flutter.dev/flutter/widgets/IconData-class.html) -- **icon**，必要参数，图标
-
-*   2.   [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **size**，图标大小
-
-*   3.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- **color**，图标颜色
-
-*   4.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) semanticLabel
-
-*   5.   [TextDirection](https://api.flutter.dev/flutter/dart-ui/TextDirection-class.html) textDirection
+1.  [IconData](https://api.flutter.dev/flutter/widgets/IconData-class.html) -- **icon**，必要参数，图标；
+2.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **size**，图标大小；
+3.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- **color**，图标颜色；
+4.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) semanticLabel，
+5.  [TextDirection](https://api.flutter.dev/flutter/dart-ui/TextDirection-class.html) textDirection，
 
 <br>
 
@@ -64,13 +60,12 @@ Text(
 
 [IconData](https://api.flutter.dev/flutter/widgets/IconData-class.html) 相关属性：
 
-*   1.   [int](https://api.flutter.dev/flutter/dart-core/int-class.html) -- **codePoint**， 字符码点；
+<br>
 
-*   2.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **fontFamily**，字体名称；
-
-*   3.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **fontPackage**，
-
-*   4.   [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) -- **matchTextDirection**: false，
+1.  [int](https://api.flutter.dev/flutter/dart-core/int-class.html) -- **codePoint**， 字符码点；
+2.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **fontFamily**，字体名称；
+3.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **fontPackage**，
+4.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) -- **matchTextDirection**: false，
 
 <br>
 
@@ -98,9 +93,9 @@ Row(
 
 <br>
 
-*   1.   在项目根目录下新建一个 `fonts` 文件夹，将下载好的 `iconfont.ttf` 文件放至该目录下：
+1.  在项目根目录下新建一个 `fonts` 文件夹，将下载好的 `iconfont.ttf` 文件放至该目录下：
 
-*   2.  在`pubspec.yaml`中的`flutter`部分添加如下内容：
+2.  在`pubspec.yaml`中的`flutter`部分添加如下内容：
 
 ```yaml
 flutter:
@@ -110,7 +105,7 @@ flutter:
         - asset: fonts/iconfont.ttf
 ```
 
-*   3.   在项目中使用图标：
+3.  在项目中使用图标：
 
 ```dart
 // 注意：例如阿里图标，我们需要将 Unicode 码中的 `#` 手动转为 `0`。
@@ -122,4 +117,3 @@ Icon(
     color: Colors.purple,
 ),
 ```
-

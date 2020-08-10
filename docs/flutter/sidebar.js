@@ -35,7 +35,16 @@ module.exports = [
             'chapter3/text',
             'chapter3/icon',
             'chapter3/image',
-            'chapter3/button'
+            'chapter3/button',
+            'chapter3/textfield',
+            'chapter3/form',
+            'chapter3/switch',
+            'chapter3/radio',
+            'chapter3/checkbox',
+            'chapter3/slider',
+            'chapter3/date&time',
+            'chapter3/dialog',
+            'chapter3/panel'
         ]
     },
     {
@@ -79,6 +88,31 @@ module.exports = [
         ]
     },
     {
+        title: '第七章：信息展示组件',
+        path: '/flutter/chapter7/',
+        collapsable: false,
+        children: [
+            'chapter7/chip',
+            'chapter7/table',
+            'chapter7/listtile',
+            'chapter7/circle_avatar',
+            'chapter7/card',
+            'chapter7/stepper'
+        ]
+    },
+    {
+        title: '第八章：视觉效果',
+        path: '/flutter/chapter8/',
+        collapsable: false,
+        children: [
+            'chapter8/clipoval',
+            'chapter8/cliprect',
+            'chapter8/material',
+            'chapter8/backdrop_filter',
+            'chapter8/opacity'
+        ]
+    },
+    {
         title: '第七章：功能型组件'
     },
     {
@@ -88,16 +122,39 @@ module.exports = [
         title: '第九章：自定义组件'
     },
     {
-        title: '第十章：路由'
+        title: '第十章：路由',
+        path: '/flutter/chapter10',
+        collapsable: false,
+        children: [
+            'chapter10/intro',
+            'chapter10/navigator',
+            'chapter10/routes',
+            'chapter10/params'
+        ]
     },
     {
         title: '第十一章：状态管理'
     },
     {
-        title: '第十二章：事件处理'
+        title: '第十二章：事件处理',
+        path: '/flutter/chapter12/',
+        collapsable: false,
+        children: [
+            'chapter12/intro',
+            'chapter12/pointers',
+            'chapter12/gesture',
+        ]
     },
     {
-        title: '第十三章：文件操作与网络请求'
+        title: '第十三章：文件操作与网络请求',
+        path: '/flutter/chapter13/',
+        collapsable: false,
+        children: [
+            'chapter13/read_write',
+            'chapter13/http_client',
+            'chapter13/http',
+            'chapter13/dio',
+        ]
     },
     {
         title: '第十四章：数据处理及持久化'
@@ -110,5 +167,17 @@ module.exports = [
     },
     {
         title: '第十七章：原生混编Flutter工程'
+    },
+    {
+        title: '第十八章：第三方库学习',
+        path: '/flutter/chapter18/',
+        collapsable: false,
+        children: [
+            'chapter18/swiper',
+            'chapter18/refresh',
+            'chapter18/launcher',
+            'chapter18/storage',
+            'chapter18/media',
+        ]
     }
 ]

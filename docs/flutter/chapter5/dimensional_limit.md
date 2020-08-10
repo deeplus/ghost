@@ -100,3 +100,15 @@ ConstrainedBox(
 ),
 ```
 
+<br>
+
+---
+
+## AspectRatio
+
+[AspectRatio](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html) 
+
+<br>
+
+1.  @required [double](https://api.flutter.dev/flutter/dart-core/double-class.html) aspectRatio，
+2.  [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) child，

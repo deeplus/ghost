@@ -12,39 +12,23 @@ Flutter中，我们可以通过 [Image](https://api.flutter.dev/flutter/widgets/
 
 <br>
 
-*   1.   @required [ImageProvider](https://api.flutter.dev/flutter/painting/ImageProvider-class.html) -- **image**，
-
-*   2.   [ImageFrameBuilder](https://api.flutter.dev/flutter/widgets/ImageFrameBuilder.html) frameBuilder，
-
-*   3.   [ImageLoadingBuilder](https://api.flutter.dev/flutter/widgets/ImageLoadingBuilder.html) loadingBuilder，
-
-*   4.   [ImageErrorWidgetBuilder](https://api.flutter.dev/flutter/widgets/ImageErrorWidgetBuilder.html) errorBuilder，
-
-*   5.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) semanticLabel，
-
-*   6.   [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) excludeFromSemantics: false，
-
-*   7.   [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **width**，图片的宽度；
-
-*   8.   [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **height**，图片的高度；
-
-*   9.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- **color**，图片的混合色值；
-
-*   10.   [BlendMode](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html) -- **colorBlendMode**，混合模式；
-
-*   11.   [BoxFit](https://api.flutter.dev/flutter/painting/BoxFit-class.html) -- **fit**，缩放模式；
-
-*   12.   [AlignmentGeometry](https://api.flutter.dev/flutter/painting/AlignmentGeometry-class.html) -- **alignment**: Alignment.center，对齐方式；
-
-*   13.   [ImageRepeat](https://api.flutter.dev/flutter/painting/ImageRepeat-class.html) -- **repeat**: ImageRepeat.noRepeat，重复方式；
-
-*   14.   [Rect](https://api.flutter.dev/flutter/dart-ui/Rect-class.html) centerSlice，
-
-*   15.   [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) matchTextDirection: false，
-
-*   16.   [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) gaplessPlayback: false，
-
-*   17.   [FilterQuality](https://api.flutter.dev/flutter/dart-ui/FilterQuality-class.html) filterQuality: FilterQuality.low，
+1.  @required [ImageProvider](https://api.flutter.dev/flutter/painting/ImageProvider-class.html) -- **image**，
+2.  [ImageFrameBuilder](https://api.flutter.dev/flutter/widgets/ImageFrameBuilder.html) frameBuilder，
+3.  [ImageLoadingBuilder](https://api.flutter.dev/flutter/widgets/ImageLoadingBuilder.html) loadingBuilder，
+4.  [ImageErrorWidgetBuilder](https://api.flutter.dev/flutter/widgets/ImageErrorWidgetBuilder.html) errorBuilder，
+5.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) semanticLabel，
+6.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) excludeFromSemantics: false，
+7.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **width**，图片的宽度；
+8.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **height**，图片的高度；
+9.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- **color**，图片的混合色值；
+10.  [BlendMode](https://api.flutter.dev/flutter/dart-ui/BlendMode-class.html) -- **colorBlendMode**，混合模式；
+11.  [BoxFit](https://api.flutter.dev/flutter/painting/BoxFit-class.html) -- **fit**，缩放模式；
+12.  [AlignmentGeometry](https://api.flutter.dev/flutter/painting/AlignmentGeometry-class.html) -- **alignment**: Alignment.center，对齐方式；
+13.  [ImageRepeat](https://api.flutter.dev/flutter/painting/ImageRepeat-class.html) -- **repeat**: ImageRepeat.noRepeat，重复方式；
+14.  [Rect](https://api.flutter.dev/flutter/dart-ui/Rect-class.html) centerSlice，
+15.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) matchTextDirection: false，
+16.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) gaplessPlayback: false，
+17.  [FilterQuality](https://api.flutter.dev/flutter/dart-ui/FilterQuality-class.html) filterQuality: FilterQuality.low，
 
 <br>
 
@@ -56,11 +40,9 @@ Flutter中，我们可以通过 [Image](https://api.flutter.dev/flutter/widgets/
 
 [NetworkImage](https://api.flutter.dev/flutter/painting/NetworkImage-class.html) 从网络加载图片。
 
-*   1.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **url**，图片的 URL；
-
-*   2.   [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **scale**，图片的缩放比例；
-
-*   3.   [Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)<[String](https://api.flutter.dev/flutter/dart-core/String-class.html), [String](https://api.flutter.dev/flutter/dart-core/String-class.html)> headers
+1.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **url**，图片的 URL；
+2.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) -- **scale**，图片的缩放比例；
+3.  [Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)<[String](https://api.flutter.dev/flutter/dart-core/String-class.html), [String](https://api.flutter.dev/flutter/dart-core/String-class.html)> headers
 
 <br>
 
@@ -94,11 +76,9 @@ Image.network(
 
 [AssetImage](https://api.flutter.dev/flutter/painting/AssetImage-class.html) 从本地加载图片。
 
-*   1.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **assetName**，
-
-*   2.   [AssetBundle](https://api.flutter.dev/flutter/services/AssetBundle-class.html) -- **bundle**，
-
-*   3.   [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **package**
+1.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **assetName**，
+2.  [AssetBundle](https://api.flutter.dev/flutter/services/AssetBundle-class.html) -- **bundle**，
+3.  [String](https://api.flutter.dev/flutter/dart-core/String-class.html) -- **package**
 
 <br>
 
@@ -126,6 +106,3 @@ Image(
     height: 100,
 ),
 ```
-
-
-

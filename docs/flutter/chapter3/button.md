@@ -16,27 +16,17 @@ title: 3.4：按钮
 
 按钮的外观大都可以通过属性来自定义：
 
-*   1.   @required [VoidCallback](https://api.flutter.dev/flutter/dart-ui/VoidCallback.html) -- **onPressed**，按钮点击回调；
-
-*   2.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- textColor，按钮文字颜色；
-
-*   3.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- disabledTextColor，按钮禁用时的文字颜色；
-
-*   4.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- color，按钮背景颜色；
-
-*   5.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- disabledColor，按钮禁用时的背景颜色；
-
-*   6.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- highlightColor，按钮按下时的背景颜色；
-
-*   7.   [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- splashColor，点击时水波动画中的水波颜色；
-
-*   8.   [Brightness](https://api.flutter.dev/flutter/dart-ui/Brightness-class.html) -- colorBrightness，按钮主题，默认是浅色主题 ；
-
-*   9.   [EdgeInsetsGeometry](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) -- padding，按钮的填充；
-
-*   10.   [ShapeBorder](https://api.flutter.dev/flutter/painting/ShapeBorder-class.html) -- shape，按钮的外形；
-
-*   11.   [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) -- child，按钮的内容；
+1.  @required [VoidCallback](https://api.flutter.dev/flutter/dart-ui/VoidCallback.html) -- **onPressed**，按钮点击回调；
+2.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- textColor，按钮文字颜色；
+3.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- disabledTextColor，按钮禁用时的文字颜色；
+4.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- color，按钮背景颜色；
+5.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- disabledColor，按钮禁用时的背景颜色；
+6.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- highlightColor，按钮按下时的背景颜色；
+7.  [Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) -- splashColor，点击时水波动画中的水波颜色；
+8.  [Brightness](https://api.flutter.dev/flutter/dart-ui/Brightness-class.html) -- colorBrightness，按钮主题，默认是浅色主题 ；
+9.  [EdgeInsetsGeometry](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) -- padding，按钮的填充；
+10.  [ShapeBorder](https://api.flutter.dev/flutter/painting/ShapeBorder-class.html) -- shape，按钮的外形；
+11.  [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) -- child，按钮的内容；
 
 <br>
 
@@ -186,4 +176,26 @@ FlatButton.icon(
 ---
 
 ## 自定义按钮外观
+
+<br>
+
+---
+
+## ButtonBar
+
+[ButtonBar](https://api.flutter.dev/flutter/material/ButtonBar-class.html)
+
+<br>
+
+1.  [MainAxisAlignment](https://api.flutter.dev/flutter/rendering/MainAxisAlignment-class.html) alignment，
+2.  [MainAxisSize](https://api.flutter.dev/flutter/rendering/MainAxisSize-class.html) mainAxisSize，
+3.  [ButtonTextTheme](https://api.flutter.dev/flutter/material/ButtonTextTheme-class.html) buttonTextTheme，
+4.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) buttonMinWidth，
+5.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) buttonHeight，
+6.  [EdgeInsetsGeometry](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) buttonPadding，
+7.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) buttonAlignedDropdown，
+8.  [ButtonBarLayoutBehavior](https://api.flutter.dev/flutter/material/ButtonBarLayoutBehavior-class.html) layoutBehavior，
+9.  [VerticalDirection](https://api.flutter.dev/flutter/painting/VerticalDirection-class.html) overflowDirection，
+10.  [double](https://api.flutter.dev/flutter/dart-core/double-class.html) overflowButtonSpacing，
+11.  [List](https://api.flutter.dev/flutter/dart-core/List-class.html)\<[Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)\> children: const []
 

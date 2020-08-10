@@ -138,5 +138,17 @@ Container(
 ),
 ```
 
+<br>
 
+---
+
+## ListBody
+
+[ListBody]()
+
+<br>
+
+1.  [Axis](https://api.flutter.dev/flutter/painting/Axis-class.html) mainAxis: Axis.vertical，
+2.  [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) reverse: false，
+3.  [List](https://api.flutter.dev/flutter/dart-core/List-class.html)\<[Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)\> children: const []，
 
